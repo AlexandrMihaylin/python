@@ -7,9 +7,9 @@ def fibo_gen():
         yield factorial(el)
 
 
-g = fibo_gen()
+gen = fibo_gen()
 x = 0
-for i in g:
+for i in gen:
     if x == 15:
         break
     else:
